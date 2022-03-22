@@ -49,7 +49,7 @@ curl -O -L https://github.com/actions/runner/releases/download/v2.283.3/actions-
 tar xzf ./actions-runner-linux-x64-2.283.3.tar.gz
 
 
-./config.sh --url https://github.schibsted.io/blocket --token AAABVQTP7LPVRPJEFQY74ZTCHHKEA  --runnergroup bdo-automation --work _work --labels bdo --name sandbox-runner2
+./config.sh --url https://github.schibsted.io/blocket --token AAABVQXRCXXV5LGE66PDZV3CHHYTE  --runnergroup bdo-automation --work _work --labels bdo --name sandbox-runner2
 
 
 sudo ./svc.sh install
