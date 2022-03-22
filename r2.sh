@@ -52,5 +52,6 @@ tar xzf ./actions-runner-linux-x64-2.283.3.tar.gz
 ./config.sh --url https://github.schibsted.io/blocket --token AAABVQTP7LPVRPJEFQY74ZTCHHKEA  --runnergroup bdo-automation --work _work --labels runnerlable --name runnername
 
 
+sudo ./svc.sh install
 
-./run.sh
+sudo ./svc.sh start
